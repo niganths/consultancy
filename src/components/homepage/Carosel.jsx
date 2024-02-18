@@ -1,9 +1,9 @@
 import React from 'react';
 import { Carousel } from 'antd';
-import img1 from '../img/20240201_173600.jpg'
-import img2 from '../img/20240201_173607.jpg'
-import img3 from '../img/20240201_173611.jpg'
-import img4 from '../img/20240201_173615.jpg'
+import img1 from '../../img/20240201_173600.jpg'
+import img2 from '../../img/20240201_173607.jpg'
+import img3 from '../../img/20240201_173611.jpg'
+import img4 from '../../img/20240201_173615.jpg'
 const contentStyle = {
   height: '360px',
   color: '#fff',

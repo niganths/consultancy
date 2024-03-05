@@ -1,5 +1,6 @@
-import Main from "./components/admin/Main";
 import Header from "./components/homepage/Home";
+import Login from "./pages/Login";
+import SignUp from "./pages/Signup";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <BrowserRouter>
     <Routes>
     <Route path="/" element={<Header />} />
-          <Route path="/admin" element={<Main />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<SignUp />} />
      
     </Routes>
   </BrowserRouter>

@@ -1,0 +1,78 @@
+body{
+    background-color: #0a192f;
+}
+.contact-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+    margin: 100px; 
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  
+}
+@media screen and (max-width: 767px) {
+    .container {
+        min-height: 100vh; 
+        margin: 100px;
+        width: 60%;
+    }
+}
+
+.form-container {
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+
+.map-container {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 300px; /* Adjust as needed */
+}
+
+@media screen and (min-width: 768px) {
+    .contact-page-container {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .form-container {
+        margin-right: 20px;
+    }
+}
